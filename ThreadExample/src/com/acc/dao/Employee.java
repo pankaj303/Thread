@@ -10,8 +10,10 @@ public class Employee {
 		this.employeeBasicPay=pay;
 	}
 	
+	
 
 	public int getEmployeeWorkDay() {
+		System.out.println("HI");
 		return employeeWorkDay;
 	}
 	public int getEmployeeBasicPay() {
